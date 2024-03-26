@@ -7,7 +7,7 @@
 #
 Name     : qt6datavis3d
 Version  : 6.6.3
-Release  : 14
+Release  : 15
 URL      : https://download.qt.io/official_releases/qt/6.6/6.6.3/submodules/qtdatavis3d-everywhere-src-6.6.3.tar.xz
 Source0  : https://download.qt.io/official_releases/qt/6.6/6.6.3/submodules/qtdatavis3d-everywhere-src-6.6.3.tar.xz
 Summary  : No detailed summary available
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1711481490
+export SOURCE_DATE_EPOCH=1711490606
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -125,7 +125,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1711481490
+export SOURCE_DATE_EPOCH=1711490606
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/qt6datavis3d
 cp %{_builddir}/qtdatavis3d-everywhere-src-%{version}/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/qt6datavis3d/b073f11f0c81a95ab5e32aa6b5d23a5955a95274 || :
