@@ -1,3 +1,4 @@
+libQt6DataVisualization.so.6:NonQt
 libQt6DataVisualization.so.6:Qt_6
 libQt6DataVisualization.so.6:Qt_6_PRIVATE_API
 libQt6DataVisualization.so.6:_ZN10Q3DScatter11qt_metacallEN11QMetaObject4CallEiPPv
@@ -1760,6 +1761,7 @@ libQt6DataVisualization.so.6:_ZThn16_N16QAbstract3DGraphD0Ev
 libQt6DataVisualization.so.6:_ZThn16_N16QAbstract3DGraphD1Ev
 libQt6DataVisualization.so.6:_ZThn16_N7Q3DBarsD0Ev
 libQt6DataVisualization.so.6:_ZThn16_N7Q3DBarsD1Ev
+libQt6DataVisualizationQml.so.6:NonQt
 libQt6DataVisualizationQml.so.6:Qt_6
 libQt6DataVisualizationQml.so.6:Qt_6_PRIVATE_API
 libQt6DataVisualizationQml.so.6:_Z38qml_register_types_QtDataVisualizationv
